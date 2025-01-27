@@ -1,72 +1,122 @@
-# Minimalist Calculator
+# JS Calculator
 
-A simple, clean, and functional web-based calculator. This project is perfect for learning basic web development concepts, including HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+## Overview
+
+The **JS Calculator** is a web-based application that provides a simple, user-friendly interface for performing basic mathematical operations. Built with HTML, CSS, and JavaScript, this project is an excellent demonstration of core web development skills.
 
 ---
 
-## Getting Started
+## Features
 
-Follow the steps below to set up the project on your local machine.
+- **Basic Operations:** Perform addition, subtraction, multiplication, and division.
+- **Clear and Reset:** Clear the input or reset the calculator to its initial state.
+- **Responsive Design:** Optimized for use on various devices, including desktops, tablets, and mobile phones.
+- **Keyboard Support:** (Planned Feature) Use the keyboard for faster calculations.
 
-### Prerequisites
-- [Git](https://git-scm.com/) installed on your computer.
-- A modern web browser (e.g., Chrome, Firefox, Edge).
-- A code editor like [Visual Studio Code](https://code.visualstudio.com/).
+---
 
-### Installation
-1. Clone the repository:
-   git clone https://github.com/your-username/minimalist-calculator.git
+## Table of Contents
 
-####Usage Examples
-Below are some examples of how to use the calculator:
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Live Demo](#live-demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Performing basic operations:
+---
 
-Open the calculator in your browser.
-Enter numbers and select an operation (+, -, *, /).
-Press = to see the result.
-Clearing or deleting input:
+## Technologies Used
 
-Use the C button to clear all input.
-Use the DEL button to delete the last entered character.
-Example code snipped for integration: 
-<div class="calculator">
-  <div class="display" id="display">0</div>
-  <button class="btn" data-action="7">7</button>
-  <button class="btn" data-action="add">+</button>
-  <button class="btn" data-action="equals">=</button>
-</div>
+- **HTML5:** Structure of the application.
+- **CSS3:** Styling and layout.
+- **JavaScript (ES6):** Core logic and interactivity.
 
-#####Features
-Basic arithmetic operations: Add, subtract, multiply, and divide.
-Keyboard-friendly: Easily use the calculator with a mouse or keyboard.
-Minimalist design: Clean and simple user interface.
-Responsive layout: Works on both desktop and mobile devices
+---
 
-######Contributing
+## Live Demo
 
-We welcome contributions to improve this project! Follow these steps to contribute:
+Experience the live version of the calculator:  
+[JS Calculator Live Demo](#) *(Update this link once deployed)*
 
-Fork the repository:
-Click the "Fork" button on the repository page to create your own copy.
+---
 
-Clone your forked repository:
-git clone https://github.com/your-username/minimalist-calculator.git
+## Installation
 
-Create a new branch for your feature:
-git checkout -b feature-name
+To run this project locally, follow these steps:
 
-Make changes and commit them:
-git add .
-git commit -m "Add feature-name"
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/renesitoxd/JS_Calculator.git
+   cd JS_Calculator
+   ```
 
-Push your branch to GitHub:
-git push origin feature-name
-Submit a Pull Request:
+2. **Open in Browser:**
+   - Open the `index.html` file in your browser to view and use the calculator.
 
-Go to your repository on GitHub.
-Click "Compare & pull request".
-Describe your changes and submit the PR.
+---
 
-License
-This project is licensed under the MIT License.
+## Usage
+
+### How to Use
+1. Enter numbers and select an operator (e.g., `+`, `-`, `×`, `÷`).
+2. Press the `=` button to see the result.
+3. Use the `C` button to clear the input or reset the calculator.
+
+### Example:
+1. Input: `7 + 5`
+2. Press `=`
+3. Output: `12`
+
+---
+
+## Screenshots
+
+### Desktop View:
+![Desktop View](#) *(Add screenshot URL)*
+
+### Mobile View:
+![Mobile View](#) *(Add screenshot URL)*
+
+---
+
+## Contributing
+
+We welcome contributions to enhance the JS Calculator! Follow these steps to contribute:
+
+1. **Fork the Repository:** Click the "Fork" button at the top-right corner of this page.
+2. **Clone Your Fork:**
+   ```bash
+   git clone https://github.com/<your-username>/JS_Calculator.git
+   cd JS_Calculator
+   ```
+3. **Create a Feature Branch:**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+4. **Commit Your Changes:**
+   ```bash
+   git add .
+   git commit -m "Add your feature description"
+   ```
+5. **Push Your Branch:**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Submit a Pull Request:** Go to your forked repository, click "Compare & pull request," and describe your changes.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project under the terms of the license.
+
+---
+
+## Contact
+
+For questions, suggestions, or feedback, please open an issue or contact the repository owner.
+
+---
